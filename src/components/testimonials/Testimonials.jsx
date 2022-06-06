@@ -23,7 +23,7 @@ const Testimonials = () => {
       pagination={{ clickable: true }}  
       className="container testimonials__container">
         {
-          data.map(({image, name, review}, index)=>{
+          data.map(({image, name, review, link}, index)=>{
             return (
               
                 <SwiperSlide 
@@ -31,13 +31,15 @@ const Testimonials = () => {
                 
                 
                 className='testimonial'>
-                <div className="client__avatar">
-                  <img src={image} alt=" AVATAR One" />           
-                </div>
-                <h5 className='client__name'>{name}</h5>
+                <a href={link} target="_blank">
+                  <div className="client__avatar">
+                    <img src={image} alt=" AVATAR One" />           
+                  </div>
+                  <h5 className='client__name'>{name}</h5>
                   <small className='client__review'>
                     {review}
                   </small>
+                </a>
               </SwiperSlide> 
               
             )
