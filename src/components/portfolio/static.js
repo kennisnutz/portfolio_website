@@ -5,17 +5,25 @@ import Portfolio4 from '../../assets/portfolio4.png';
 import Portfolio6 from '../../assets/portfolio6.png';
 import Portfolio7 from '../../assets/portfolio7.png';
 import Portfolio8 from '../../assets/portfolio8.png';
+import Portfolio9 from '../../assets/portfolio9.png';
 
 const data = [
   {
     id: 1,
+    image: Portfolio9,
+    title: ' Property Agent dashboard',
+    github: 'https://github.com/kennisnutz/residio',
+    demo: 'https://merry-buttercream-f67c11.netlify.app/',
+  },
+  {
+    id: 2,
     image: Portfolio8,
     title: ' CrowdFund App',
     github: 'https://github.com/kennisnutz/CrowdFundWeb3',
     demo: 'https://frabjous-granita-08adde.netlify.app/',
   },
   {
-    id: 2,
+    id: 3,
     image: Portfolio6,
     title: ' FFLeague NFT',
     github: 'https://github.com/kennisnutz/ffleaguemart',
@@ -23,35 +31,35 @@ const data = [
   },
 
   {
-    id: 3,
+    id: 4,
     image: Portfolio2,
     title: 'Web3 twitter clone dapp',
     github: 'https://github.com/kennisnutz/NFTwitta',
     demo: 'https://nfttwitta-kennisnutz.vercel.app/',
   },
   {
-    id: 4,
+    id: 5,
     image: Portfolio7,
     title: 'Near Safe coin stats',
     github: 'https://github.com/kennisnutz/near-safe-coin',
     demo: 'https://near-safe-coin.netlify.app/',
   },
   {
-    id: 5,
+    id: 6,
     image: Portfolio4,
     title: ' Fan footy nft mart',
     github: 'https://github.com/kennisnutz/nftMart',
     demo: 'https://footy-fans-nfts.web.app/',
   },
   {
-    id: 6,
+    id: 7,
     image: Portfolio1,
     title: 'NFT Collection minting dapp',
     github: 'https://github.com/kennisnutz/KUCOIN-KONGS',
     demo: 'https://frozen-cove-50661.herokuapp.com/',
   },
   {
-    id: 7,
+    id: 8,
     image: Portfolio3,
     title: ' Visney art minter dapp',
     github: 'https://github.com/kennisnutz/Visney',
